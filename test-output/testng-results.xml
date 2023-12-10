@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="60" passed="51" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-20T22:32:43 IST" name="Suite" finished-at="2022-12-20T22:40:07 IST" duration-ms="443727">
+    <groups>
+    </groups>
+    <test started-at="2022-12-20T22:32:43 IST" name="Test" finished-at="2022-12-20T22:40:07 IST" duration-ms="443727">
+      <class name="com.qa.Google.tests.GoogleWebPageTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.qa.Google.tests.GoogleWebPageTest@2e6a5539]" started-at="2022-12-20T22:32:42 IST" name="beforeSuite" finished-at="2022-12-20T22:32:43 IST" duration-ms="870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.Google.tests.GoogleWebPageTest@2e6a5539]" started-at="2022-12-20T22:32:43 IST" name="setup" finished-at="2022-12-20T22:33:01 IST" duration-ms="18002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="launchGooglePage()[pri:1, instance:com.qa.Google.tests.GoogleWebPageTest@2e6a5539]" started-at="2022-12-20T22:33:01 IST" name="launchGooglePage" finished-at="2022-12-20T22:33:01 IST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchGooglePage -->
+        <test-method signature="WebPageUrlTest()[pri:2, instance:com.qa.Google.tests.GoogleWebPageTest@2e6a5539]" started-at="2022-12-20T22:33:01 IST" name="WebPageUrlTest" finished-at="2022-12-20T22:33:01 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebPageUrlTest -->
+        <test-method signature="verifyTitlebarBtn()[pri:3, instance:com.qa.Google.tests.GoogleWebPageTest@2e6a5539]" started-at="2022-12-20T22:33:01 IST" name="verifyTitlebarBtn" finished-at="2022-12-20T22:33:01 IST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitlebarBtn -->
+        <test-method signature="verifyBtn()[pri:4, instance:com.qa.Google.tests.GoogleWebPageTest@2e6a5539]" started-at="2022-12-20T22:33:01 IST" name="verifyBtn" finished-at="2022-12-20T22:33:01 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBtn -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.Google.tests.GoogleWebPageTest@2e6a5539]" started-at="2022-12-20T22:33:01 IST" name="teardown" finished-at="2022-12-20T22:33:02 IST" duration-ms="827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.Google.tests.GoogleWebPageTest -->
+      <class name="com.qa.Google.tests.PlayStorePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.Google.tests.PlayStorePageTest@29a0cdb]" started-at="2022-12-20T22:35:43 IST" name="setup" finished-at="2022-12-20T22:35:54 IST" duration-ms="11477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="GoogleProductPageSetup()[pri:0, instance:com.qa.Google.tests.PlayStorePageTest@29a0cdb]" started-at="2022-12-20T22:35:54 IST" name="GoogleProductPageSetup" finished-at="2022-12-20T22:35:55 IST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleProductPageSetup -->
+        <test-method signature="openPlayStorePage()[pri:1, instance:com.qa.Google.tests.PlayStorePageTest@29a0cdb]" started-at="2022-12-20T22:35:55 IST" name="openPlayStorePage" finished-at="2022-12-20T22:35:57 IST" duration-ms="1985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPlayStorePage -->
+        <test-method signature="PlayStorePagettitleTest()[pri:2, instance:com.qa.Google.tests.PlayStorePageTest@29a0cdb]" started-at="2022-12-20T22:35:57 IST" name="PlayStorePagettitleTest" finished-at="2022-12-20T22:35:59 IST" duration-ms="2022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlayStorePagettitleTest -->
+        <test-method signature="doLoginPlayStorePage()[pri:3, instance:com.qa.Google.tests.PlayStorePageTest@29a0cdb]" started-at="2022-12-20T22:35:59 IST" name="doLoginPlayStorePage" finished-at="2022-12-20T22:36:14 IST" duration-ms="15402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginPlayStorePage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.Google.tests.PlayStorePageTest@29a0cdb]" started-at="2022-12-20T22:36:14 IST" name="teardown" finished-at="2022-12-20T22:36:15 IST" duration-ms="795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.Google.tests.PlayStorePageTest -->
+      <class name="com.qa.Google.tests.NewsPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.Google.tests.NewsPageTest@73194df]" started-at="2022-12-20T22:36:54 IST" name="setup" finished-at="2022-12-20T22:37:05 IST" duration-ms="10916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="GoogleProductPageSetup()[pri:0, instance:com.qa.Google.tests.NewsPageTest@73194df]" started-at="2022-12-20T22:37:05 IST" name="GoogleProductPageSetup" finished-at="2022-12-20T22:37:05 IST" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleProductPageSetup -->
+        <test-method signature="openPlayStorePage()[pri:1, instance:com.qa.Google.tests.NewsPageTest@73194df]" started-at="2022-12-20T22:37:05 IST" name="openPlayStorePage" finished-at="2022-12-20T22:37:07 IST" duration-ms="1726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPlayStorePage -->
+        <test-method signature="PlayStorePagettitleTest()[pri:2, instance:com.qa.Google.tests.NewsPageTest@73194df]" started-at="2022-12-20T22:37:07 IST" name="PlayStorePagettitleTest" finished-at="2022-12-20T22:37:09 IST" duration-ms="2480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlayStorePagettitleTest -->
+        <test-method signature="doLoginPlayStorePage()[pri:3, instance:com.qa.Google.tests.NewsPageTest@73194df]" started-at="2022-12-20T22:37:09 IST" name="doLoginPlayStorePage" finished-at="2022-12-20T22:37:24 IST" duration-ms="14570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginPlayStorePage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.Google.tests.NewsPageTest@73194df]" started-at="2022-12-20T22:37:24 IST" name="teardown" finished-at="2022-12-20T22:37:25 IST" duration-ms="1748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.Google.tests.NewsPageTest -->
+      <class name="com.qa.Google.tests.GoogleMapPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.Google.tests.GoogleMapPageTest@32a68f4f]" started-at="2022-12-20T22:36:15 IST" name="setup" finished-at="2022-12-20T22:36:21 IST" duration-ms="5922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="GoogleProductPageSetup()[pri:0, instance:com.qa.Google.tests.GoogleMapPageTest@32a68f4f]" started-at="2022-12-20T22:36:21 IST" name="GoogleProductPageSetup" finished-at="2022-12-20T22:36:21 IST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleProductPageSetup -->
+        <test-method signature="openMapPage()[pri:1, instance:com.qa.Google.tests.GoogleMapPageTest@32a68f4f]" started-at="2022-12-20T22:36:21 IST" name="openMapPage" finished-at="2022-12-20T22:36:22 IST" duration-ms="1172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openMapPage -->
+        <test-method signature="MapPagettitleTest()[pri:2, instance:com.qa.Google.tests.GoogleMapPageTest@32a68f4f]" started-at="2022-12-20T22:36:22 IST" name="MapPagettitleTest" finished-at="2022-12-20T22:36:22 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MapPagettitleTest -->
+        <test-method signature="doLoginMapPage()[pri:3, instance:com.qa.Google.tests.GoogleMapPageTest@32a68f4f]" started-at="2022-12-20T22:36:22 IST" name="doLoginMapPage" finished-at="2022-12-20T22:36:52 IST" duration-ms="30370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginMapPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.Google.tests.GoogleMapPageTest@32a68f4f]" started-at="2022-12-20T22:36:52 IST" name="teardown" finished-at="2022-12-20T22:36:54 IST" duration-ms="1463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.Google.tests.GoogleMapPageTest -->
+      <class name="com.qa.Google.tests.GoogleProductPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.Google.tests.GoogleProductPageTest@5a1de7fb]" started-at="2022-12-20T22:33:02 IST" name="setup" finished-at="2022-12-20T22:33:11 IST" duration-ms="9373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="GoogleProductPageSetup()[pri:0, instance:com.qa.Google.tests.GoogleProductPageTest@5a1de7fb]" started-at="2022-12-20T22:33:11 IST" name="GoogleProductPageSetup" finished-at="2022-12-20T22:33:12 IST" duration-ms="808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleProductPageSetup -->
+        <test-method signature="allAppExist()[pri:1, instance:com.qa.Google.tests.GoogleProductPageTest@5a1de7fb]" started-at="2022-12-20T22:33:12 IST" name="allAppExist" finished-at="2022-12-20T22:33:14 IST" duration-ms="1864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allAppExist -->
+        <test-method signature="openAccountPage()[pri:2, instance:com.qa.Google.tests.GoogleProductPageTest@5a1de7fb]" started-at="2022-12-20T22:33:14 IST" name="openAccountPage" finished-at="2022-12-20T22:33:27 IST" duration-ms="12926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountPage -->
+        <test-method signature="openSearchPage()[pri:3, instance:com.qa.Google.tests.GoogleProductPageTest@5a1de7fb]" started-at="2022-12-20T22:33:27 IST" name="openSearchPage" finished-at="2022-12-20T22:33:32 IST" duration-ms="4899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSearchPage -->
+        <test-method signature="openMapPage()[pri:4, instance:com.qa.Google.tests.GoogleProductPageTest@5a1de7fb]" started-at="2022-12-20T22:33:32 IST" name="openMapPage" finished-at="2022-12-20T22:33:45 IST" duration-ms="13368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openMapPage -->
+        <test-method signature="openYouTubePage()[pri:5, instance:com.qa.Google.tests.GoogleProductPageTest@5a1de7fb]" started-at="2022-12-20T22:33:45 IST" name="openYouTubePage" finished-at="2022-12-20T22:34:08 IST" duration-ms="22755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openYouTubePage -->
+        <test-method signature="openPlayStorePage()[pri:6, instance:com.qa.Google.tests.GoogleProductPageTest@5a1de7fb]" started-at="2022-12-20T22:34:08 IST" name="openPlayStorePage" finished-at="2022-12-20T22:34:20 IST" duration-ms="11507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPlayStorePage -->
+        <test-method signature="openNewsPage()[pri:7, instance:com.qa.Google.tests.GoogleProductPageTest@5a1de7fb]" started-at="2022-12-20T22:34:20 IST" name="openNewsPage" finished-at="2022-12-20T22:34:28 IST" duration-ms="8422" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Google News] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Google News] but found []
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.qa.Google.tests.GoogleProductPageTest.openNewsPage(GoogleProductPageTest.java:59)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openNewsPage -->
+        <test-method signature="openGmailPage()[pri:8, instance:com.qa.Google.tests.GoogleProductPageTest@5a1de7fb]" started-at="2022-12-20T22:34:29 IST" name="openGmailPage" finished-at="2022-12-20T22:34:40 IST" duration-ms="11681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openGmailPage -->
+        <test-method signature="openMeetPage()[pri:9, instance:com.qa.Google.tests.GoogleProductPageTest@5a1de7fb]" started-at="2022-12-20T22:34:40 IST" name="openMeetPage" finished-at="2022-12-20T22:34:49 IST" duration-ms="8183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openMeetPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.Google.tests.GoogleProductPageTest@5a1de7fb]" started-at="2022-12-20T22:34:49 IST" name="teardown" finished-at="2022-12-20T22:34:51 IST" duration-ms="2110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.Google.tests.GoogleProductPageTest -->
+      <class name="com.qa.Google.tests.GoogleAccountPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.Google.tests.GoogleAccountPageTest@3c9c0d96]" started-at="2022-12-20T22:38:04 IST" name="setup" finished-at="2022-12-20T22:38:16 IST" duration-ms="12295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="GoogleProductPageSetup()[pri:0, instance:com.qa.Google.tests.GoogleAccountPageTest@3c9c0d96]" started-at="2022-12-20T22:38:16 IST" name="GoogleProductPageSetup" finished-at="2022-12-20T22:38:17 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleProductPageSetup -->
+        <test-method signature="openGoogleAccount()[pri:1, instance:com.qa.Google.tests.GoogleAccountPageTest@3c9c0d96]" started-at="2022-12-20T22:38:17 IST" name="openGoogleAccount" finished-at="2022-12-20T22:38:18 IST" duration-ms="1771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openGoogleAccount -->
+        <test-method signature="GoogleAccountLogoExist()[pri:2, instance:com.qa.Google.tests.GoogleAccountPageTest@3c9c0d96]" started-at="2022-12-20T22:38:18 IST" name="GoogleAccountLogoExist" finished-at="2022-12-20T22:38:22 IST" duration-ms="3492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleAccountLogoExist -->
+        <test-method signature="loginPageTitleTest()[pri:3, instance:com.qa.Google.tests.GoogleAccountPageTest@3c9c0d96]" started-at="2022-12-20T22:38:22 IST" name="loginPageTitleTest" finished-at="2022-12-20T22:38:22 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method signature="doLoginGoogleAccount()[pri:4, instance:com.qa.Google.tests.GoogleAccountPageTest@3c9c0d96]" started-at="2022-12-20T22:38:22 IST" name="doLoginGoogleAccount" finished-at="2022-12-20T22:39:01 IST" duration-ms="38895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginGoogleAccount -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.Google.tests.GoogleAccountPageTest@3c9c0d96]" started-at="2022-12-20T22:39:01 IST" name="teardown" finished-at="2022-12-20T22:39:05 IST" duration-ms="4114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.Google.tests.GoogleAccountPageTest -->
+      <class name="com.qa.Google.tests.GoogleSearchPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.Google.tests.GoogleSearchPageTest@6eb2384f]" started-at="2022-12-20T22:37:25 IST" name="setup" finished-at="2022-12-20T22:37:33 IST" duration-ms="7443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="GoogleProductPageSetup()[pri:0, instance:com.qa.Google.tests.GoogleSearchPageTest@6eb2384f]" started-at="2022-12-20T22:37:33 IST" name="GoogleProductPageSetup" finished-at="2022-12-20T22:37:33 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleProductPageSetup -->
+        <test-method signature="openSearchPage()[pri:1, instance:com.qa.Google.tests.GoogleSearchPageTest@6eb2384f]" started-at="2022-12-20T22:37:33 IST" name="openSearchPage" finished-at="2022-12-20T22:37:34 IST" duration-ms="1077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSearchPage -->
+        <test-method signature="verifyButtonsIsExist()[pri:2, instance:com.qa.Google.tests.GoogleSearchPageTest@6eb2384f]" started-at="2022-12-20T22:37:34 IST" name="verifyButtonsIsExist" finished-at="2022-12-20T22:37:35 IST" duration-ms="770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyButtonsIsExist -->
+        <test-method signature="SelectMarathiLangauge()[pri:3, instance:com.qa.Google.tests.GoogleSearchPageTest@6eb2384f]" started-at="2022-12-20T22:37:35 IST" name="SelectMarathiLangauge" finished-at="2022-12-20T22:37:37 IST" duration-ms="2219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectMarathiLangauge -->
+        <test-method signature="SelectHindiLangauge()[pri:4, instance:com.qa.Google.tests.GoogleSearchPageTest@6eb2384f]" started-at="2022-12-20T22:37:37 IST" name="SelectHindiLangauge" finished-at="2022-12-20T22:37:39 IST" duration-ms="2096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectHindiLangauge -->
+        <test-method signature="SelectEnglishLangauge()[pri:5, instance:com.qa.Google.tests.GoogleSearchPageTest@6eb2384f]" started-at="2022-12-20T22:37:39 IST" name="SelectEnglishLangauge" finished-at="2022-12-20T22:37:41 IST" duration-ms="2173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectEnglishLangauge -->
+        <test-method signature="Search_Amitabh_Bachchan()[pri:6, instance:com.qa.Google.tests.GoogleSearchPageTest@6eb2384f]" started-at="2022-12-20T22:37:41 IST" name="Search_Amitabh_Bachchan" finished-at="2022-12-20T22:37:49 IST" duration-ms="7799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_Amitabh_Bachchan -->
+        <test-method signature="ProductsAllExist()[pri:7, instance:com.qa.Google.tests.GoogleSearchPageTest@6eb2384f]" started-at="2022-12-20T22:37:49 IST" name="ProductsAllExist" finished-at="2022-12-20T22:38:02 IST" duration-ms="13052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductsAllExist -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.Google.tests.GoogleSearchPageTest@6eb2384f]" started-at="2022-12-20T22:38:02 IST" name="teardown" finished-at="2022-12-20T22:38:04 IST" duration-ms="1887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.Google.tests.GoogleSearchPageTest -->
+      <class name="com.qa.Google.tests.YouTubePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.Google.tests.YouTubePageTest@335b5620]" started-at="2022-12-20T22:34:51 IST" name="setup" finished-at="2022-12-20T22:35:03 IST" duration-ms="11853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="GoogleProductPageSetup()[pri:0, instance:com.qa.Google.tests.YouTubePageTest@335b5620]" started-at="2022-12-20T22:35:03 IST" name="GoogleProductPageSetup" finished-at="2022-12-20T22:35:03 IST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleProductPageSetup -->
+        <test-method signature="openMapPage()[pri:1, instance:com.qa.Google.tests.YouTubePageTest@335b5620]" started-at="2022-12-20T22:35:03 IST" name="openMapPage" finished-at="2022-12-20T22:35:04 IST" duration-ms="1046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openMapPage -->
+        <test-method signature="youTubePagettitleTest()[pri:2, instance:com.qa.Google.tests.YouTubePageTest@335b5620]" started-at="2022-12-20T22:35:04 IST" name="youTubePagettitleTest" finished-at="2022-12-20T22:35:04 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- youTubePagettitleTest -->
+        <test-method signature="doLoginYouTubePage()[pri:3, instance:com.qa.Google.tests.YouTubePageTest@335b5620]" started-at="2022-12-20T22:35:04 IST" name="doLoginYouTubePage" finished-at="2022-12-20T22:35:41 IST" duration-ms="36765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginYouTubePage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.Google.tests.YouTubePageTest@335b5620]" started-at="2022-12-20T22:35:41 IST" name="teardown" finished-at="2022-12-20T22:35:43 IST" duration-ms="2373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.Google.tests.YouTubePageTest -->
+      <class name="com.qa.Google.tests.GmailPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.Google.tests.GmailPageTest@3a4621bd]" started-at="2022-12-20T22:39:05 IST" name="setup" finished-at="2022-12-20T22:39:20 IST" duration-ms="15439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="GoogleProductPageSetup()[pri:0, instance:com.qa.Google.tests.GmailPageTest@3a4621bd]" started-at="2022-12-20T22:39:20 IST" name="GoogleProductPageSetup" finished-at="2022-12-20T22:39:20 IST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleProductPageSetup -->
+        <test-method signature="openGmailPage()[pri:1, instance:com.qa.Google.tests.GmailPageTest@3a4621bd]" started-at="2022-12-20T22:39:20 IST" name="openGmailPage" finished-at="2022-12-20T22:39:24 IST" duration-ms="3775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openGmailPage -->
+        <test-method signature="GmailPagettitleTest()[pri:2, instance:com.qa.Google.tests.GmailPageTest@3a4621bd]" started-at="2022-12-20T22:39:24 IST" name="GmailPagettitleTest" finished-at="2022-12-20T22:39:24 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GmailPagettitleTest -->
+        <test-method signature="doLoginGmailPage()[pri:3, instance:com.qa.Google.tests.GmailPageTest@3a4621bd]" started-at="2022-12-20T22:39:24 IST" name="doLoginGmailPage" finished-at="2022-12-20T22:39:39 IST" duration-ms="15258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginGmailPage -->
+        <test-method signature="VerifyTotalNumbersOfEmailRecived()[pri:4, instance:com.qa.Google.tests.GmailPageTest@3a4621bd]" started-at="2022-12-20T22:39:39 IST" name="VerifyTotalNumbersOfEmailRecived" finished-at="2022-12-20T22:39:45 IST" duration-ms="5104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTotalNumbersOfEmailRecived -->
+        <test-method signature="VerifyTotalNumbersOfEmailIsStar()[pri:5, instance:com.qa.Google.tests.GmailPageTest@3a4621bd]" started-at="2022-12-20T22:39:45 IST" name="VerifyTotalNumbersOfEmailIsStar" finished-at="2022-12-20T22:39:50 IST" duration-ms="5316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTotalNumbersOfEmailIsStar -->
+        <test-method signature="VerifyTotalReadEmails()[pri:6, instance:com.qa.Google.tests.GmailPageTest@3a4621bd]" started-at="2022-12-20T22:39:50 IST" name="VerifyTotalReadEmails" finished-at="2022-12-20T22:39:55 IST" duration-ms="4988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTotalReadEmails -->
+        <test-method signature="VerifyTotalUnReadEmails()[pri:7, instance:com.qa.Google.tests.GmailPageTest@3a4621bd]" started-at="2022-12-20T22:39:55 IST" name="VerifyTotalUnReadEmails" finished-at="2022-12-20T22:39:59 IST" duration-ms="4533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTotalUnReadEmails -->
+        <test-method signature="VerifyAndSendComoposeEmail()[pri:8, instance:com.qa.Google.tests.GmailPageTest@3a4621bd]" started-at="2022-12-20T22:39:59 IST" name="VerifyAndSendComoposeEmail" finished-at="2022-12-20T22:40:03 IST" duration-ms="3712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAndSendComoposeEmail -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.Google.tests.GmailPageTest@3a4621bd]" started-at="2022-12-20T22:40:03 IST" name="teardown" finished-at="2022-12-20T22:40:07 IST" duration-ms="3382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.Google.tests.GmailPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="com.qa.Google.listners.ExtentReportListener"></listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.qa.Google.tests.GoogleWebPageTest" />
+			<class name="com.qa.Google.tests.GoogleProductPageTest" />
+			<class name="com.qa.Google.tests.YouTubePageTest" />
+			<class name="com.qa.Google.tests.PlayStorePageTest" />
+			<class name="com.qa.Google.tests.GoogleMapPageTest" />
+			<class name="com.qa.Google.tests.NewsPageTest" />
+			<class name="com.qa.Google.tests.GoogleSearchPageTest" />
+			<class name="com.qa.Google.tests.GoogleAccountPageTest" />
+			<class name="com.qa.Google.tests.GmailPageTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Google Test Regression Suite" verbose="4" thread-count="5" parallel="tests">
+
+	<listeners>
+		<listener class-name="com.qa.Google.listners.ExtentReportListener" />
+	</listeners>
+
+	<test name="Google WebPage Page Test">
+		<classes>
+			<class name="com.qa.Google.tests.GoogleWebPageTest" />
+		</classes>
+	</test>
+
+	<test name="Google YouTube Page Page Test">
+		<classes>
+			<class name="com.qa.Google.tests.YouTubePageTest" />
+		</classes>
+	</test>
+
+	<test name="Google Search Page Test">
+		<classes>
+			<class name="com.qa.Google.tests.GoogleSearchPageTest" />
+		</classes>
+	</test>
+
+	<test name="Google Gmail Page Test">
+		<classes>
+			<class name="com.qa.Google.tests.GmailPageTest" />
+		</classes>
+	</test>
+
+
+</suite>
